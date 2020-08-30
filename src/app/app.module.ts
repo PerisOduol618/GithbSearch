@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { ProfileRequestServiceService } from "./service/profile-request-service.service"
 
@@ -14,7 +14,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppComponent,
     ProfileComponent,
     NavbarComponent,
-   
+    HttpClientModule
   ],
   imports: [
     BrowserModule,
