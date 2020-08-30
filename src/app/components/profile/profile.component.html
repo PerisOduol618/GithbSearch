@@ -17,17 +17,17 @@
         <div class="col">
             <h1>{{user.login}}</h1>
             <img src="{{user.avatar_url}}" alt="profile">
-            <h3>{{user.name}}</h3>
-            <h5>{{user.followers}}</h5>
-            <h5>{{user.following}}</h5>
+            <h3>Name: {{user.name}}</h3>
+            <h5>Followers: {{user.followers}}</h5>
+            <h5>Following: {{user.following}}</h5>
         </div>
     </div>
     <div class="row">
         <div class="col" *ngFor = "let repo of repo">
-            <h2>{{repo.name}}</h2>
-            <p>{{repo.description}}</p>
-            <h3>{{repo.repos}}</h3>
-            <h4>{{repo.language}}</h4>
+            <h2>Name: {{repo.name}}</h2>
+            <p>Description: {{repo.description}}</p>
+            <h3>Repos: {{repo.repos}}</h3>
+            <h4>Language: {{repo.language}}</h4>
 
         </div>
     </div>

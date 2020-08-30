@@ -1,10 +1,22 @@
 # GithubSearchApp
 
+#### By **Peris Oduol**
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project was generated [Angular CLI]( https://perisoduol618.github.io/Vocelli-Pizza/)
+
+
+## Known Bugs
+There are no bugs at the moment
+
+## Technologies Used
+* HTM
+* CSS
+* Bootsrap
+* Angular JS
 
 ## Code scaffolding
 
