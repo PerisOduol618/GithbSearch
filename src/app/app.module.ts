@@ -1,26 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
-import { ProfileRequestServiceService } from "./service/profile-request-service.service"
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FormSearchComponent } from './form-search/form-search.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     NavbarComponent,
-    HttpClientModule
+    FormSearchComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
   ],
-  providers: [ProfileRequestServiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
