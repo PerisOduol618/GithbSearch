@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { ProfileRequestServiceService } from "./service/profile-request-service.service"
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,7 +13,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     AppComponent,
     ProfileComponent,
-    NavbarComponent
+    NavbarComponent,
+   
   ],
   imports: [
     BrowserModule,
