@@ -2,21 +2,35 @@
 
 #### By **Peris Oduol**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+## Live link
+
+
+## Github repository
+**[click here](https://github.com/PerisOduol618/GithbSearch)** to view the repo.
 
 ## Description
 
-This project was generated [Angular CLI]( https://perisoduol618.github.io/Vocelli-Pizza/)
+This is Github search app where you can search for a github users,there repository using the
+serchform. To search for a a user and there repo in multiple repositories on GitHub, use the search form
+qualifier.
 
+## Behavior driven devlopment
+
+| Behavior               | Input                                     | Output                                                           |
+| ---------------------- | ----------------------------------------- | ---------------------------------------------------------------- |
+| Enter git username     | Input "github username" i.e PerisOduol618 | Should display avatar,followers,following,email and public repos |
+| View project in github | Click on the button                       | Display specific repo on github                                  |
 
 ## Known Bugs
+
 There are no bugs at the moment
 
 ## Technologies Used
-* HTM
-* CSS
-* Bootsrap
-* Angular JS
+
+- HTM
+- CSS
+- Bootsrap
+- Angular JS
 
 ## Code scaffolding
 

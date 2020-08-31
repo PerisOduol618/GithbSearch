@@ -12,3 +12,7 @@ img {
     font-family: 'Josefin Sans', sans-serif;
     width:200px
 }
+.about{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
