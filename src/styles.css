@@ -1,1 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.body{
+    overflow-x: hidden;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+img {
+    border-radius: 50%;
+  }
+.login{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    width:200px
+}
