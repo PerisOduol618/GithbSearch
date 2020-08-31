@@ -4,8 +4,10 @@ export class User {
         public avatar_url:string,
         public url:string,
         public name:string,
+        public email:string,
         public followers:number,
         public following:number,
+        
         
 
     ){
