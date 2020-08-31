@@ -16,8 +16,8 @@ export class ProfileRequestService {
   user: User;
   repo: Repo;
   constructor(private http: HttpClient) { 
-    this.user = new User("", "", "", "", 0, 0)
-    this.repo = new Repo( "", "", "","")
+    this.user = new User("", "", "", "", "", 0, 0)
+    this.repo = new Repo( "", "", "","","","")
   }
 
   searchUser(searchTerm) {
@@ -26,6 +26,7 @@ export class ProfileRequestService {
       avatar_url: string,
       url: string,
       name: string,
+      email: string,
       followers: number,
       following: number,
     }
@@ -49,6 +50,8 @@ export class ProfileRequestService {
       description: string,
       repos: string,
       language: string,
+      html_url: string,
+      created_at: string,
     }
     return new Promise((resolve, reject) => {
       this.http.get<Response>( 'https://api.github.com/users/' + searchTerm + '/repos?access_token=' + environment.apiKey).toPromise()
