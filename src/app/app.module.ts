@@ -7,6 +7,8 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormSearchComponent } from './form-search/form-search.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { FormsModule } from '@angular/forms';
     ProfileComponent,
     NavbarComponent,
     FormSearchComponent,
+    FooterComponent,
+    AboutComponent,
    
   ],
   imports: [
